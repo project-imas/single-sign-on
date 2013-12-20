@@ -1,0 +1,5 @@
+-- Better second example
+-- Use a separate hash for each app
+   > The issue with doing this right is each app must have a separate
+     authentication pop-up each time
+-- Better testing of pasteboard volatility
