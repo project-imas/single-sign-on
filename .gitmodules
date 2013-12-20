@@ -1,0 +1,9 @@
+[submodule "sso-app/vendor/security-check"]
+	path = sso-app/vendor/security-check
+	url = https://github.com/project-imas/security-check.git
+[submodule "sso-app/vendor/securefoundation"]
+	path = sso-app/vendor/securefoundation
+	url = https://github.com/project-imas/securefoundation.git
+[submodule "sso-app/vendor/app-password"]
+	path = sso-app/vendor/app-password
+	url = https://github.com/project-imas/app-password.git
