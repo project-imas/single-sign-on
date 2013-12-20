@@ -64,8 +64,9 @@ void problem() {
                 [appPasteBoard setString:@""];
                 
                 // phoneHome
-                NSURL* url = [NSURL URLWithString:@"https://162.243.38.103:8080/problem"];
-                NSURLRequest* request = [NSURLRequest requestWithURL:url];
+                //NSURL* url = [NSURL URLWithString:@"https://HOST:8080/problem"];
+             
+                //NSURLRequest* request = [NSURLRequest requestWithURL:url];
                 
                 //    if(_didCall == NO) [_webView loadRequest:request];
                 //    _didCall = YES;
@@ -77,13 +78,13 @@ void problem() {
         //-----------------------------------
         // jailbreak detection
         //-----------------------------------
-        /*checkFork(chkCallback);
+        checkFork(chkCallback);
         checkFiles(chkCallback);
         checkLinks(chkCallback);
         
         dbgStop;
          
-        dbgCheck(chkCallback);*/
+        dbgCheck(chkCallback);
          
     }
 }
