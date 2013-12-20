@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ssoClient.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString* ssoHash = [ssoClient fetchHash:@"imasSimpleSSOClient"];
+    NSLog(@"%@",ssoHash);
+    [[self hashArea] setText:ssoHash];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +32,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)logoutButton:(id)sender {
+    [ssoClient logout];
+    exit(0);
+}
+- (IBAction)exitButton:(id)sender {
+
+    exit(0);
+}
 @end

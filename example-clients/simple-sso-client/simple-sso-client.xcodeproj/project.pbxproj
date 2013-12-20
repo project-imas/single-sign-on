@@ -19,6 +19,7 @@
 		3E7552C01861B99D008930B8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7552BE1861B99D008930B8 /* MainStoryboard_iPhone.storyboard */; };
 		3E7552C31861B99D008930B8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7552C11861B99D008930B8 /* MainStoryboard_iPad.storyboard */; };
 		3E7552C61861B99D008930B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7552C51861B99D008930B8 /* ViewController.m */; };
+		3E7552D61861BA70008930B8 /* ssoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7552D51861BA70008930B8 /* ssoClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,9 @@
 		3E7552C21861B99D008930B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		3E7552C41861B99D008930B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E7552C51861B99D008930B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E7552D31861BA70008930B8 /* sso-client-api-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sso-client-api-Prefix.pch"; sourceTree = "<group>"; };
+		3E7552D41861BA70008930B8 /* ssoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssoClient.h; sourceTree = "<group>"; };
+		3E7552D51861BA70008930B8 /* ssoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssoClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		3E75529A1861B99D008930B8 = {
 			isa = PBXGroup;
 			children = (
+				3E7552D21861BA70008930B8 /* sso-client-api */,
 				3E7552AC1861B99D008930B8 /* simple-sso-client */,
 				3E7552A51861B99D008930B8 /* Frameworks */,
 				3E7552A41861B99D008930B8 /* Products */,
@@ -108,6 +113,17 @@
 				3E7552BC1861B99D008930B8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E7552D21861BA70008930B8 /* sso-client-api */ = {
+			isa = PBXGroup;
+			children = (
+				3E7552D31861BA70008930B8 /* sso-client-api-Prefix.pch */,
+				3E7552D41861BA70008930B8 /* ssoClient.h */,
+				3E7552D51861BA70008930B8 /* ssoClient.m */,
+			);
+			name = "sso-client-api";
+			path = "../../client-api/sso-client-api/sso-client-api";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +196,7 @@
 				3E7552B31861B99D008930B8 /* main.m in Sources */,
 				3E7552B71861B99D008930B8 /* AppDelegate.m in Sources */,
 				3E7552C61861B99D008930B8 /* ViewController.m in Sources */,
+				3E7552D61861BA70008930B8 /* ssoClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
