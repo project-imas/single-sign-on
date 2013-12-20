@@ -25,7 +25,8 @@ Next we need to set a custom URL scheme for the application.  This can be accomp
   * Double click in the empty "Value" area of "Item 0" to start typing
   * Type in a unique name for your program, and make sure to remember what it is
 Below is an example plist table:
-![Custom URL Scheme][images/customURLScheme.png]
+
+![Custom URL Scheme](images/customURLScheme.png)
 
 Finally make sure the target device has the SingleSignOn application installed, which is located under the sso-app directory.
 
