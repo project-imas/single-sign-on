@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3E1E22151858AAB6001FDCE3 /* libSecurityCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1E22121858A9D0001FDCE3 /* libSecurityCheck.a */; };
+		B417417219784B64008E62C6 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B417417119784B64008E62C6 /* AppPassword.framework */; };
+		B417417319784B6E008E62C6 /* AppPassword.framework in Resources */ = {isa = PBXBuildFile; fileRef = B417417119784B64008E62C6 /* AppPassword.framework */; };
+		B417417A19784C1E008E62C6 /* APSimplePass_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417419784C1E008E62C6 /* APSimplePass_iPad.storyboard */; };
+		B417417B19784C1E008E62C6 /* APSimplePass_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417519784C1E008E62C6 /* APSimplePass_iPhone.storyboard */; };
+		B417417C19784C1E008E62C6 /* APComplexPass_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417619784C1E008E62C6 /* APComplexPass_iPad.storyboard */; };
+		B417417D19784C1E008E62C6 /* APComplexPass_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417719784C1E008E62C6 /* APComplexPass_iPhone.storyboard */; };
+		B417417E19784C1E008E62C6 /* APQuestionPass_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417819784C1E008E62C6 /* APQuestionPass_iPad.storyboard */; };
+		B417417F19784C1E008E62C6 /* APQuestionPass_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B417417919784C1E008E62C6 /* APQuestionPass_iPhone.storyboard */; };
 		FE808B3617C68CA7000A0225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B3517C68CA7000A0225 /* UIKit.framework */; };
 		FE808B3817C68CA7000A0225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B3717C68CA7000A0225 /* Foundation.framework */; };
 		FE808B3A17C68CA7000A0225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B3917C68CA7000A0225 /* CoreGraphics.framework */; };
@@ -22,16 +30,11 @@
 		FE808B5417C68CA7000A0225 /* SingleSignOn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5217C68CA7000A0225 /* SingleSignOn.xcdatamodeld */; };
 		FE808B5717C68CA7000A0225 /* iMASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5617C68CA7000A0225 /* iMASMainViewController.m */; };
 		FE808B5A17C68CA7000A0225 /* iMASFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B5917C68CA7000A0225 /* iMASFlipsideViewController.m */; };
-		FE808B9117C69191000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B8317C69143000A0225 /* AppPassword.framework */; };
-		FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
 		FE808B9417C691B3000A0225 /* libSecureFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B8A17C69149000A0225 /* libSecureFoundation.a */; };
 		FE808B9617C691CB000A0225 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9517C691CB000A0225 /* Security.framework */; };
 		FE808B9817C691D7000A0225 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9717C691D7000A0225 /* QuartzCore.framework */; };
 		FE808B9B17C6928E000A0225 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE808B9A17C6928E000A0225 /* APViewController.m */; };
-		FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE808B9217C6919B000A0225 /* AppPassword.framework */; };
 		FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */; };
-		FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */; };
-		FEA60A3017CFCA7700B9AADB /* iMAS_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +66,6 @@
 			remoteGlobalIDString = 3B89357C162C92F1003750B6;
 			remoteInfo = SecureFoundation;
 		};
-		FE808B8B17C69149000A0225 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3B89358D162C92F1003750B6;
-			remoteInfo = SecureFoundationTests;
-		};
 		FE808B8D17C6916E000A0225 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */;
@@ -88,6 +84,13 @@
 
 /* Begin PBXFileReference section */
 		3E1E220C1858A9CF001FDCE3 /* SecurityCheck.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecurityCheck.xcodeproj; path = "vendor/security-check/SecurityCheck.xcodeproj"; sourceTree = "<group>"; };
+		B417417119784B64008E62C6 /* AppPassword.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppPassword.framework; path = "../../Library/Developer/Xcode/DerivedData/SingleSignOn-cokyroqukslzvdgksyptjroopoxe/Build/Products/Debug-iphoneos/AppPassword.embeddedframework/AppPassword.framework"; sourceTree = "<group>"; };
+		B417417419784C1E008E62C6 /* APSimplePass_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APSimplePass_iPad.storyboard; path = "vendor/app-password/AppPassword/APSimplePass_iPad.storyboard"; sourceTree = "<group>"; };
+		B417417519784C1E008E62C6 /* APSimplePass_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APSimplePass_iPhone.storyboard; path = "vendor/app-password/AppPassword/APSimplePass_iPhone.storyboard"; sourceTree = "<group>"; };
+		B417417619784C1E008E62C6 /* APComplexPass_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APComplexPass_iPad.storyboard; path = "vendor/app-password/AppPassword/APComplexPass_iPad.storyboard"; sourceTree = "<group>"; };
+		B417417719784C1E008E62C6 /* APComplexPass_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APComplexPass_iPhone.storyboard; path = "vendor/app-password/AppPassword/APComplexPass_iPhone.storyboard"; sourceTree = "<group>"; };
+		B417417819784C1E008E62C6 /* APQuestionPass_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APQuestionPass_iPad.storyboard; path = "vendor/app-password/AppPassword/APQuestionPass_iPad.storyboard"; sourceTree = "<group>"; };
+		B417417919784C1E008E62C6 /* APQuestionPass_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = APQuestionPass_iPhone.storyboard; path = "vendor/app-password/AppPassword/APQuestionPass_iPhone.storyboard"; sourceTree = "<group>"; };
 		FE808B3217C68CA7000A0225 /* SingleSignOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSignOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE808B3517C68CA7000A0225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE808B3717C68CA7000A0225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,13 +113,11 @@
 		FE808B5917C68CA7000A0225 /* iMASFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMASFlipsideViewController.m; sourceTree = "<group>"; };
 		FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppPassword.xcodeproj; path = "vendor/app-password/AppPassword.xcodeproj"; sourceTree = "<group>"; };
 		FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecureFoundation.xcodeproj; path = vendor/securefoundation/SecureFoundation.xcodeproj; sourceTree = "<group>"; };
-		FE808B9217C6919B000A0225 /* AppPassword.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppPassword.framework; path = "Build/Products/Debug-iphoneos/AppPassword.framework"; sourceTree = "<group>"; };
 		FE808B9517C691CB000A0225 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FE808B9717C691D7000A0225 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FE808B9917C6928E000A0225 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
 		FE808B9A17C6928E000A0225 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
 		FEA60A2517CFC50200B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
-		FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
 		FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMAS_logo_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,13 +126,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B417417219784B64008E62C6 /* AppPassword.framework in Frameworks */,
 				3E1E22151858AAB6001FDCE3 /* libSecurityCheck.a in Frameworks */,
 				FE808B9817C691D7000A0225 /* QuartzCore.framework in Frameworks */,
 				FE808B9617C691CB000A0225 /* Security.framework in Frameworks */,
 				FE808B3617C68CA7000A0225 /* UIKit.framework in Frameworks */,
-				FE808B9C17C692EF000A0225 /* AppPassword.framework in Frameworks */,
 				FE808B3817C68CA7000A0225 /* Foundation.framework in Frameworks */,
-				FE808B9117C69191000A0225 /* AppPassword.framework in Frameworks */,
 				FE808B9417C691B3000A0225 /* libSecureFoundation.a in Frameworks */,
 				FE808B3A17C68CA7000A0225 /* CoreGraphics.framework in Frameworks */,
 				FE808B3C17C68CA7000A0225 /* CoreData.framework in Frameworks */,
@@ -149,16 +149,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B417418019784C2F008E62C6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B417417419784C1E008E62C6 /* APSimplePass_iPad.storyboard */,
+				B417417519784C1E008E62C6 /* APSimplePass_iPhone.storyboard */,
+				B417417619784C1E008E62C6 /* APComplexPass_iPad.storyboard */,
+				B417417719784C1E008E62C6 /* APComplexPass_iPhone.storyboard */,
+				B417417819784C1E008E62C6 /* APQuestionPass_iPad.storyboard */,
+				B417417919784C1E008E62C6 /* APQuestionPass_iPhone.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B433F47B19784D6B00D799E9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		FE808B2917C68CA7000A0225 = {
 			isa = PBXGroup;
 			children = (
 				3E1E220C1858A9CF001FDCE3 /* SecurityCheck.xcodeproj */,
 				FEA60A2F17CFCA7700B9AADB /* iMAS_logo_small.png */,
-				FEA60A2717CFC52C00B9AADB /* iMAS_logo_small.png */,
 				FE808B9717C691D7000A0225 /* QuartzCore.framework */,
 				FE808B9517C691CB000A0225 /* Security.framework */,
 				FE808B8417C69149000A0225 /* SecureFoundation.xcodeproj */,
 				FE808B7E17C69143000A0225 /* AppPassword.xcodeproj */,
+				B417418019784C2F008E62C6 /* Storyboards */,
 				FE808B3D17C68CA7000A0225 /* SingleSignOn */,
 				FE808B3417C68CA7000A0225 /* Frameworks */,
 				FE808B3317C68CA7000A0225 /* Products */,
@@ -176,7 +196,7 @@
 		FE808B3417C68CA7000A0225 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE808B9217C6919B000A0225 /* AppPassword.framework */,
+				B417417119784B64008E62C6 /* AppPassword.framework */,
 				FE808B3517C68CA7000A0225 /* UIKit.framework */,
 				FE808B3717C68CA7000A0225 /* Foundation.framework */,
 				FE808B3917C68CA7000A0225 /* CoreGraphics.framework */,
@@ -188,6 +208,7 @@
 		FE808B3D17C68CA7000A0225 /* SingleSignOn */ = {
 			isa = PBXGroup;
 			children = (
+				B433F47B19784D6B00D799E9 /* iPad */,
 				FE808B9917C6928E000A0225 /* APViewController.h */,
 				FE808B9A17C6928E000A0225 /* APViewController.m */,
 				FE808B4617C68CA7000A0225 /* iMASAppDelegate.h */,
@@ -230,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				FE808B8A17C69149000A0225 /* libSecureFoundation.a */,
-				FE808B8C17C69149000A0225 /* SecureFoundationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,7 +285,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = iMAS;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "MITRE Corp";
 			};
 			buildConfigurationList = FE808B2D17C68CA7000A0225 /* Build configuration list for PBXProject "SingleSignOn" */;
@@ -321,13 +341,6 @@
 			remoteRef = FE808B8917C69149000A0225 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FE808B8C17C69149000A0225 /* SecureFoundationTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SecureFoundationTests.octest;
-			remoteRef = FE808B8B17C69149000A0225 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -335,15 +348,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B417417319784B6E008E62C6 /* AppPassword.framework in Resources */,
 				FE808B4217C68CA7000A0225 /* InfoPlist.strings in Resources */,
+				B417417A19784C1E008E62C6 /* APSimplePass_iPad.storyboard in Resources */,
+				B417417F19784C1E008E62C6 /* APQuestionPass_iPhone.storyboard in Resources */,
+				B417417D19784C1E008E62C6 /* APComplexPass_iPhone.storyboard in Resources */,
 				FE808B4A17C68CA7000A0225 /* Default.png in Resources */,
 				FE808B4C17C68CA7000A0225 /* Default@2x.png in Resources */,
 				FE808B4E17C68CA7000A0225 /* Default-568h@2x.png in Resources */,
 				FE808B5117C68CA7000A0225 /* MainStoryboard.storyboard in Resources */,
-				FE808B9317C6919B000A0225 /* AppPassword.framework in Resources */,
+				B417417C19784C1E008E62C6 /* APComplexPass_iPad.storyboard in Resources */,
+				B417417B19784C1E008E62C6 /* APSimplePass_iPhone.storyboard in Resources */,
+				B417417E19784C1E008E62C6 /* APQuestionPass_iPad.storyboard in Resources */,
 				FEA60A2617CFC50200B9AADB /* iMAS_logo_small.png in Resources */,
-				FEA60A2817CFC52C00B9AADB /* iMAS_logo_small.png in Resources */,
-				FEA60A3017CFCA7700B9AADB /* iMAS_logo_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,10 +479,16 @@
 		FE808B5E17C68CA7000A0225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SingleSignOn-cokyroqukslzvdgksyptjroopoxe/Build/Products/Debug-iphoneos/AppPassword.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleSignOn/SingleSignOn-Prefix.pch";
 				INFOPLIST_FILE = "SingleSignOn/SingleSignOn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = SingleSignOn;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -473,10 +496,16 @@
 		FE808B5F17C68CA7000A0225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SingleSignOn-cokyroqukslzvdgksyptjroopoxe/Build/Products/Debug-iphoneos/AppPassword.embeddedframework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleSignOn/SingleSignOn-Prefix.pch";
 				INFOPLIST_FILE = "SingleSignOn/SingleSignOn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = SingleSignOn;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
