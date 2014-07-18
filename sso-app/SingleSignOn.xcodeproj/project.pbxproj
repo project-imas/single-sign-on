@@ -481,7 +481,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SingleSignOn-cokyroqukslzvdgksyptjroopoxe/Build/Products/Debug-iphoneos/AppPassword.embeddedframework",
+					"$(SRCROOT)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleSignOn/SingleSignOn-Prefix.pch";
@@ -498,7 +498,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SingleSignOn-cokyroqukslzvdgksyptjroopoxe/Build/Products/Debug-iphoneos/AppPassword.embeddedframework",
+					"$(SRCROOT)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SingleSignOn/SingleSignOn-Prefix.pch";
