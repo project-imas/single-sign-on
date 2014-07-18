@@ -18,25 +18,25 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="iMAS SSO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJ5-D8-KOD">
-                                <rect key="frame" x="113" y="124" width="161" height="23"/>
+                                <rect key="frame" x="113" y="53" width="95" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="161" id="eYT-Cs-tqt"/>
+                                    <constraint firstAttribute="width" constant="95" id="0zz-Oc-enP"/>
+                                    <constraint firstAttribute="height" constant="22" id="LBu-za-M4n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Logged In" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgG-7U-LA8">
-                                <rect key="frame" x="118" y="207" width="85" height="23"/>
+                                <rect key="frame" x="118" y="125" width="85" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGg-PS-WGi">
-                                <rect key="frame" x="20" y="520" width="135" height="28"/>
+                                <rect key="frame" x="20" y="522" width="86" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="135" id="bWC-TT-xRz"/>
-                                    <constraint firstAttribute="height" constant="28" id="rWf-Vk-HcO"/>
+                                    <constraint firstAttribute="width" constant="86" id="gt8-f7-x4q"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <state key="normal" title="Reset Passcode">
@@ -47,7 +47,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhQ-BY-dMz">
-                                <rect key="frame" x="163" y="520" width="137" height="28"/>
+                                <rect key="frame" x="254" y="522" width="46" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Tut-pK-Kly"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                 <state key="normal" title="Logout">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,17 +62,16 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HGg-PS-WGi" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="7fu-Uz-tGW"/>
-                            <constraint firstItem="XJ5-D8-KOD" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="113" id="Cjc-Zd-VF0"/>
-                            <constraint firstItem="EgG-7U-LA8" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="Crd-Sn-eUk"/>
-                            <constraint firstAttribute="bottom" secondItem="HGg-PS-WGi" secondAttribute="bottom" constant="20" symbolic="YES" id="FJ8-iF-akX"/>
-                            <constraint firstItem="HGg-PS-WGi" firstAttribute="baseline" secondItem="EhQ-BY-dMz" secondAttribute="baseline" id="GGn-2V-gmX"/>
-                            <constraint firstItem="EhQ-BY-dMz" firstAttribute="leading" secondItem="HGg-PS-WGi" secondAttribute="trailing" constant="8" symbolic="YES" id="N02-HD-Z4H"/>
-                            <constraint firstAttribute="bottom" secondItem="EhQ-BY-dMz" secondAttribute="bottom" constant="20" symbolic="YES" id="a4z-6Z-6Op"/>
-                            <constraint firstItem="HGg-PS-WGi" firstAttribute="top" secondItem="EhQ-BY-dMz" secondAttribute="top" id="cKf-N8-3Oo"/>
-                            <constraint firstAttribute="trailing" secondItem="EhQ-BY-dMz" secondAttribute="trailing" constant="20" symbolic="YES" id="egB-fS-wk7"/>
-                            <constraint firstItem="EgG-7U-LA8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="207" id="j79-RC-U7B"/>
-                            <constraint firstItem="XJ5-D8-KOD" firstAttribute="top" secondItem="3" secondAttribute="top" constant="124" id="jY7-9u-K0v"/>
+                            <constraint firstItem="Tja-t0-09I" firstAttribute="top" secondItem="EhQ-BY-dMz" secondAttribute="bottom" constant="20" id="0jF-CA-8Bc"/>
+                            <constraint firstItem="HGg-PS-WGi" firstAttribute="bottom" secondItem="EhQ-BY-dMz" secondAttribute="bottom" id="HfX-X1-Dfs"/>
+                            <constraint firstItem="XJ5-D8-KOD" firstAttribute="top" secondItem="18V-72-rHn" secondAttribute="bottom" constant="33" id="Za3-Ow-i92"/>
+                            <constraint firstAttribute="trailing" secondItem="EhQ-BY-dMz" secondAttribute="trailing" constant="20" symbolic="YES" id="dis-62-kLK"/>
+                            <constraint firstItem="EgG-7U-LA8" firstAttribute="top" secondItem="XJ5-D8-KOD" secondAttribute="bottom" constant="50" id="hxq-Z0-J6A"/>
+                            <constraint firstItem="HGg-PS-WGi" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="m3L-bv-TIl"/>
+                            <constraint firstItem="EgG-7U-LA8" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="rRe-57-eNx"/>
+                            <constraint firstAttribute="bottom" secondItem="HGg-PS-WGi" secondAttribute="bottom" constant="20" symbolic="YES" id="uws-5X-z55"/>
+                            <constraint firstItem="Tja-t0-09I" firstAttribute="top" secondItem="HGg-PS-WGi" secondAttribute="bottom" constant="20" id="vac-LD-lh5"/>
+                            <constraint firstItem="EgG-7U-LA8" firstAttribute="centerX" secondItem="XJ5-D8-KOD" secondAttribute="centerX" id="wYk-rR-Lnk"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -102,7 +104,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sub View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ad8-l4-YHt">
-                                <rect key="frame" x="121" y="234" width="79" height="23"/>
+                                <rect key="frame" x="121" y="272" width="79" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -110,8 +112,8 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ad8-l4-YHt" firstAttribute="centerX" secondItem="12" secondAttribute="centerX" id="Shc-6Y-0LV"/>
-                            <constraint firstItem="ad8-l4-YHt" firstAttribute="top" secondItem="7" secondAttribute="top" constant="234" id="bsw-kl-pt9"/>
+                            <constraint firstItem="ad8-l4-YHt" firstAttribute="centerX" secondItem="12" secondAttribute="centerX" id="APb-Tb-Adk"/>
+                            <constraint firstItem="JhM-mM-Kgf" firstAttribute="top" secondItem="ad8-l4-YHt" secondAttribute="bottom" constant="273" id="NUN-HJ-41S"/>
                             <constraint firstItem="12" firstAttribute="leading" secondItem="7" secondAttribute="leading" id="kyL-VC-rMY"/>
                             <constraint firstItem="12" firstAttribute="top" secondItem="7" secondAttribute="top" id="oQ7-QK-1Ab"/>
                             <constraint firstItem="12" firstAttribute="trailing" secondItem="7" secondAttribute="trailing" id="yf5-Bx-wHg"/>
